@@ -1,15 +1,13 @@
-package com.joseerivam.libaryapi.api.dto;
+package com.joseerivam.libaryapi.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 @Data
 @Builder
-@NoArgsConstructor
 @AllArgsConstructor
-public class BookDTO {
+public class Book {
 
   private Long id;
   private String title;
